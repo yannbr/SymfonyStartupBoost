@@ -10,24 +10,24 @@ Go through the different master branches to find one that suits your needs.
 
 			Notes: 
 			--------------
-			- None the builds use *Assetic* to load *CSS* files. 
-			- Make sure you understand all requirements each build require.
+			- NONE of the builds use Assetic to load CSS files. 
+			- Make sure you understand all REQUIREMENTS each build requires.
 
 Here are some example of builds:
 	
 **With front-end librairies:**
 
-- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass.
-- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)*.
-- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* + Compass.
-- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)*.
+- ``Symfony`` v2.2.0 + ``Zurb Foundation`` 4.0.5 *(with SASS)* +  ``Compass``.
+- ``Symfony`` v2.2.0 + ``Zurb Foundation`` 4.0.5 *(without SASS)*.
+- ``Symfony`` v2.2.0 + ``MopaBootstrapBundle`` *(Twitter Bootstrap)* + ``Compass``.
+- ``Symfony`` v2.2.0 + ``MopaBootstrapBundle`` *(Twitter Bootstrap)*.
 
 **With front-end & back-end librairies:**
 
-- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass **/** FOSUserbundle + KNPMenuBundle.
-- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)* **/** FOSUserbundle + KNPMenuBundle.
-- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap* + Compass **/** FOSUserbundle + KNPMenuBundle.
-- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* **/** FOSUserbundle + KNPMenuBundle.
+- ``Symfony`` v2.2.0 + ``Zurb Foundation`` 4.0.5 *(with SASS)* +  ``Compass`` **/** ``FOSUserbundle`` + ``KNPMenuBundle``.
+- ``Symfony`` v2.2.0 + ``Zurb Foundation`` 4.0.5 *(without SASS)* **/** ``FOSUserbundle`` + ``KNPMenuBundle``.
+- ``Symfony`` v2.2.0 + ``MopaBootstrapBundle`` *(Twitter Bootstrap* + ``Compass`` **/** ``FOSUserbundle`` + ``KNPMenuBundle``.
+- ``Symfony`` v2.2.0 + ``MopaBootstrapBundle`` *(Twitter Bootstrap)* **/** ``FOSUserbundle`` + ``KNPMenuBundle``.
 	
 ## HowTo Get Started
 
