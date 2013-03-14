@@ -17,17 +17,17 @@ Here are some example of builds:
 	
 **With front-end librairies:**
 
-- Symfony2 v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass.
-- Symfony2 v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)*.
-- Symfony2 v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* + Compass.
-- Symfony2 v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)*.
+- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass.
+- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)*.
+- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* + Compass.
+- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)*.
 
 **With front-end & back-end librairies:**
 
-- Symfony2 v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass **/** FOSUserbundle + KNPMenuBundle.
-- Symfony2 v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)* **/** FOSUserbundle + KNPMenuBundle.
-- Symfony2 v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap* + Compass **/** FOSUserbundle + KNPMenuBundle.
-- Symfony2 v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* **/** FOSUserbundle + KNPMenuBundle.
+- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(with SASS)* +  Compass **/** FOSUserbundle + KNPMenuBundle.
+- Symfony v2.2.0 + Zurb Foundation 4.0.5 *(without SASS)* **/** FOSUserbundle + KNPMenuBundle.
+- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap* + Compass **/** FOSUserbundle + KNPMenuBundle.
+- Symfony v2.2.0 + MopaBootstrapBundle *(Twitter Bootstrap)* **/** FOSUserbundle + KNPMenuBundle.
 	
 ## HowTo Get Started
 
