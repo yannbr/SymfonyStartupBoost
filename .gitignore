@@ -1,0 +1,25 @@
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+/build/
+/vendor/
+/composer.phar
+/.sass-cache/
+
+# Logs and databases #
+
+*.log
+*.sql
+*.sqlite
+
+
+# OS generated files #
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
