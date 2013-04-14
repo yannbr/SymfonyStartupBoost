@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+        <link rel="stylesheet" href="{{ asset('foundation/scss/normalize.css') }}" />
+		
+		{% block load_foundation %}
+		<link rel="stylesheet" href="{{ asset('initialise/foundation/load.css') }}" />
+		{% endblock %}
+		
+		<script src="{{ asset('foundation/js/vendor/custom.modernizr.js') }}"></script>
+		<script src="{{ asset('foundation/js/vendor/jquery.js') }}"></script>
+		<script>
+			document.write('<script src=' +
+			('__proto__' in {} ? '{{ asset('foundation/js/vendor/zepto') }}' : '{{ asset('foundation/js/vendor/jquery') }} ') +
+			'.js><\/script>')
+		</script>
+		<script src="{{ asset('foundation/js/foundation/foundation.js') }}"></script>
+		<script>
+  			$(document).foundation();
+		</script>
+        
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
